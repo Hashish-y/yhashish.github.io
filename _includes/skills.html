@@ -10,6 +10,15 @@
           <li class="skillz__category__item">{{language.item}}</li>
           {% endfor %}
         </ul>
+      </div>
+      <div class="skillz__category">
+        <div class="skillz__category__label">Libraries</div>
+        <ul>
+          {% for thing in site.data.skills.backend %}
+          <li class="skillz__category__item">{{thing.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
       <div class="skillz__category">
         <div class="skillz__category__label">Infra</div>
         <ul>
@@ -19,10 +28,18 @@
         </ul>
       </div>
       <div class="skillz__category">
-        <div class="skillz__category__label">Tools</div>
+        <div class="skillz__category__label">Tools(proficient)</div>
         <ul>
           {% for tool in site.data.skills.tools %}
           <li class="skillz__category__item">{{tool.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="skillz__category">
+        <div class="skillz__category__label">Tools(basic)</div>
+        <ul>
+          {% for thing in site.data.skills.testing %}
+          <li class="skillz__category__item">{{thing.item}}</li>
           {% endfor %}
         </ul>
       </div>
