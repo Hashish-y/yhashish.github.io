@@ -4,7 +4,7 @@
   position: Intern
   description: Worked in SoC Integration team.
   projects:
-    - name: Automating UPF flow Advisor - CX Sales and B2B Service Connector
+    - name: Automating UPF flow Advisor
       url: https://www.qualcomm.com/
       description: Developed couple of scripts for Power Intent analysis at SoC level using python.
       points:
