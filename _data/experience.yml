@@ -1,44 +1,46 @@
-- company: Thoughtworks 🎉
-  url: https://www.thoughtworks.com/
-  time: June 2021 - Present
-  position: Application Developer
-  description: 
-
-- company: Oracle
-  url: https://www.oracle.com/
-  time: June 2018 - June 2021
-  position: Application Engineer
-  description: Worked on multiple multi-tenant enterprise applications, delivering features in efficient maintainable code using Java.
+- company: Qualomm
+  url: https://www.qualcomm.com/
+  time: Jan 2023 - Present
+  position: Intern
+  description: Worked in SoC Integration team.
   projects:
-    - name: Intelligent Advisor - CX Sales and B2B Service Connector
-      url: https://docs.oracle.com/en/cloud/saas/b2b-service/21b/faiec/integrate-with-intelligent-advisor.html
-      description: Re-architecture of legacy connector between Oracle Intelligent Advisor and CX Sales B2B Service from monolith deployment to a scalable, multi-tenant, cloud native app for performance optimization, using Helidon Microprofile, JAX-RS and JAX-WS frameworks.
+    - name: Automating UPF flow Advisor - CX Sales and B2B Service Connector
+      url: https://www.qualcomm.com/
+      description: Developed couple of scripts for Power Intent analysis at SoC level using python.
       points:
-        - Implemented containerised mock REST server for integration testing and packaged/deployed to k8 infra with helm.
-        - Developed and maintained Jenkins pipelines to integrate dev workflow with build, static code scan, integration tests, package, publish and deploy to multiple Kubernetes namespaces in Oracle Cloud Infrastructure (OCI).
-        - Implemented a distributed test environment in Kubernetes for PSR testing.
-        - JWT based authentication for REST endpoints.
-        - Implementation of Checkpoint and CheckAlive operations.
-        - Performance enhancements by incorporating batch calls, bundling multiple stages together, etc.
+        - Implemented python scripts for Power Intent analysis for SoCs.
+        - Automated some flow reg. the Unified Power Format generation.
       used:
-        - thing: Helidon
-        - thing: JAX-RS
-        - thing: JAX-WS
-        - thing: Microservices
-        - thing: Kafka
-        - thing: Kubernetes
-        - thing: OCI
-        - thing: Gradle
-        - thing: git
+        - thing: Python
+        - thing: Cadence tool
+        - thing: Synopsis tool
+        - thing: Linux
 
-    - name: Intelligent Advisor adapter for Oracle Integration Cloud
-      url: https://docs.oracle.com/en/cloud/paas/integration-cloud/opa-adapter/understand-intelligent-advisor-oracle-policy-automation-adapter.html
-      description: The Oracle Intelligent Advisor Adapter can be used to develop integrations in Oracle Integration that load and save the data between Intelligent Advisor platform and other applications/services.
+    - name: SoC Integration
+      url: https://www.qualcomm.com/
+      description: I am part of Integration team for several chips.
       points:
-        - Implementation of dynamic data loading.
-        - Implementation of adapter Endpoint metrics.
+        - Worked on connectivity of AHB, APB, AXI interfaces. 
+        - Enabled pipelining for Standard and Qualcomm in house protcols.
+        - Worked on connectivity of major cores in SoC like CPU, etc. 
       used:
-        - thing: Java Connector Architecture
-        - thing: adapter
-        - thing: Gradle
-        - thing: git
+        - thing: Qualcomm Architecture
+        - thing: System Verilog
+
+- company: KNM TECH
+  url: https://www.thoughtworks.com/
+  time: Sep 2022 - Dec 2022
+  position: Analog Design Intern
+  description: A young StartUp in Incubaton of IITH working on Analog circuits and PCBs.
+    - name: Integrated Amplifier for Piezoelectric Accelerometers.
+      url: https://www.qualcomm.com/
+      description: Designed an amplifier, worked on an real case example Amplifier, and worked on PCB.
+      points:
+        - Designed an Integrated Amplifier for Piezoelectric Accelerometers. 
+        - Assembled a prototype PCB. 
+        - Designed a 7mm dia PCB. 
+      used:
+        - thing: PCB
+        - thing: JFET
+        - thing: FinFET
+        - thing: KiCAD
