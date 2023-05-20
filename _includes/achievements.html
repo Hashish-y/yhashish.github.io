@@ -1,16 +1,16 @@
 <section class="section other-projects">
-  <div class="section__title">Publications</div>
+  <div class="section__title">Achievements</div>
   <div class="section__content">
-    {% for achievement in site.data.Publications %}
+    {% for achievement in site.data.achievements %}
     <div class="project">
       <div class="project__name"> 
-        <a href="{{Publications.url}}" target="_blank" class="arrow">{{Publications.title}}</a>
+        <a href="{{achievement.url}}" target="_blank" class="arrow">{{achievement.title}}</a>
       </div>
       <div class="project__description">
-        <p>{{Publications.description}}</p>
+        <p>{{achievement.description}}</p>
       </div>
       <div class="project__used">
-        {% for item in Publications.used %}
+        {% for item in achievement.used %}
         <span class="project__used__item">{{item.thing}}</span>
         {% endfor %}
       </div>
