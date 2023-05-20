@@ -1,19 +1,18 @@
-- name: Aleida
-  url: http://abhic.me/aleida/
-  description: An application which detect botnet traffic in a private organisation network without reading network traffic but only analysing network behaviour. Uses KMeans Clustering for detecting normal and abnormal PCs. Aleida was developed on Microsoft .NET Core Platform as a web and console application.
+- name: EDR CAD
+  url: https://sites.google.com/ee.iith.ac.in/drovesbadami/home/academics?authuser=0
+  description: Working under the guidence of Dr. Oves Muhammed Hussain Badami. We analysed the Poisson and Schrodinger equation and carrier concentration in semiconductors to develop an efficient simulation tool in C++ based on 1D and 2D meshes of semiconductors.
   points:
   used:
-    - thing: .NET Core
-    - thing: C#
+    - thing: SemiConductors
+    - thing: C++
     - thing: git
+    - thing: Statistics
 
-- name: ShareMyRide
-  url: https://github.com/abhi1401/reimagined-train
-  description: A web application that makes city to city travel affordable and easy through sharing of vehicle. Front end was developed using HTML, JavaScript, AJAX, JQuery and CSS. Used php for back end development to connect with SQL Server. Used Google Places API for providing auto-completion, maps and directions. Integrated login authentications through social accounts such as Google and Facebook.
+- name: Correlation Coefficients
+  url: https://github.com/Hashish-y/DSA_project
+  description: Executed under the guidance of Prof. Shantanu Desai for the course Data Science Analysis. Implemented to understand how each correlation coefficient is affected by altering the relationship between the two variables and by introducing outliers.
   used:
-    - thing: HTML
-    - thing: Js
-    - thing: JQuery
-    - thing: PHP
-    - thing: SQL
-
+    - thing: Python
+    - thing: NumPy
+    - thing: Pandas
+    - thing: astroML
