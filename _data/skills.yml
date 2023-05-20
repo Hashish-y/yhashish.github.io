@@ -1,35 +1,16 @@
 languages:
-  - item: Java
+  - item: Verilog
+  - item: System Verilog
+  - item: Python
   - item: C++
-  - item: C#
   - item: C
 
-backend:
-  - item: Helidon microprofile
-  - item: SOAP/REST APIs
-  - item: JAX-RS
-  - item: JAX-WS
-  - item: Netflix/Hystrix
-  - item: ADF
-  - item: .NET Core
-
 infra:
-  - item: Docker
-  - item: Kubernetes
-  - item: Jenkins
-  - item: Helm
-  - item: kafka
-  - item: Gradle
-  - item: Prometheus
-  - item: Grafana
+  - item: ARM Architecture
+  - item: ARM Protocols
 
 tools:
-  - item: Git
-  - item: postman
-
-testing:
-  - item: SonarQube
-  - item: jUnit
-  - item: jMockit
-  - item: mountebank
-  - item: Fortify
+  - item: Cadence Power Intent
+  - item: KiCAD
+  - item: SolidEdge
+  - item: Vivado
