@@ -4,7 +4,14 @@ languages:
   - item: Python
   - item: C++
   - item: C
-
+backend:
+  - item: Helidon microprofile
+  - item: SOAP/REST APIs
+  - item: JAX-RS
+  - item: JAX-WS
+  - item: Netflix/Hystrix
+  - item: ADF
+  - item: .NET Core
 infra:
   - item: ARM Architecture
   - item: ARM Protocols
@@ -14,3 +21,10 @@ tools:
   - item: KiCAD
   - item: SolidEdge
   - item: Vivado
+
+testing:
+  - item: SonarQube
+  - item: jUnit
+  - item: jMockit
+  - item: mountebank
+  - item: Fortify
