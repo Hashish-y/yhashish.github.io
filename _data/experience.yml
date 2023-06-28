@@ -9,7 +9,7 @@
       description: Developed couple of scripts for Power Intent analysis at SoC level using python.
       points:
         - Implemented python scripts for Power Intent analysis for SoCs.
-        - Automated some flow reg. the Unified Power Format generation.
+        - Automated some part of the flow for the Unified Power Format generation.
       used:
         - thing: Python
         - thing: Cadence tool
@@ -18,11 +18,11 @@
 
     - name: SoC Integration
       url: https://www.qualcomm.com/
-      description: I am part of Integration team for several chips.
+      description: I am part of Integration team which involves integrating IP cores at SoC level.
       points:
         - Worked on connectivity of AHB, APB, AXI interfaces. 
-        - Enabled pipelining for Standard and Qualcomm in house protcols.
-        - Worked on connectivity of major cores in SoC like CPU, etc. 
+        - Understand about the basics of the SoC and NoC, with focus on architecture and importance of SoC.
+        - Worked on connectivity of major cores in SoC like CPU, and understood the function of various IPs, ports and their functions.
       used:
         - thing: Qualcomm Architecture
         - thing: System Verilog
